@@ -1,0 +1,29 @@
+---
+title: "Diario de estudio"
+author: "Fernando Sánchez Ros"
+date: "14/7/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Diario de estudio
+
+## 14/07/2020
+
+**Conseguido**. 
+
+* Se han instalado los materiales necesarios (R/RStudio/Tinytex) para poder crear apuntes decentes.
+* Se ha creado un repositorio en GitHub 
+* Se han subido los primeros apuntes a modo de prueba al repositorio de GitHub.
+
+**Problemas**. 
+
+* Se intentó usar MikTex para generar los apuntes en modo de pdf pero daba error y, al no poderse solucionar, se optó por la opción de generar esos pdfs con tinytex.
+* Se intentó "sincronizar" RStudio con GitHub pero hubo errores. Despues del primer knit no me dejaba generar un pdf para visualizar el contenido. No hay tiempo para solucionarlo, mirar en un futuro.
+
+**Comentarios**
+
+Como contraparte positiva al apartado de problemas el instalar el "entorno" me ha servido para reforzar conocimientos y más concretamente para recordar cosas de RMarkdown y LaTex, como hacer negritas con \*\*`código`\*\* y poner color con \\textcolor{color}{texto con color}.
