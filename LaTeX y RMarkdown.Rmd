@@ -1,0 +1,19 @@
+---
+title: "Documentar con LaTeX y RMarkdown"
+author: "Fernando Sánchez Ros"
+date: "14/7/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Cómo escribir
+
+Para escribir fórmulas matemáticas bien formateadas utilizaremos la sintaxis LaTeX
+
+* Para tener ecuaciones o fórmulas en el mismo párrafo, escribimos nuestro código entre dos símbolos de dolar. \$`código`\$
+* Para tener ecuaciones o fórmulas centradas en un párrafo aparte escribimos nuestro código entre dos dobles símbolos de dolar. \$\$`código`\$\$
+
+\textcolor{red}{¡Cuidado!} Al escribir una fórmula de la forma indicada anteriormente o simplemente texto en RMarkdown, los espacios en blanco son completamente ignorados. RStudio solamente añade los espacios en blanco a partir del significado lógico de sus elementos.
